@@ -1477,7 +1477,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148"
+		(symbol "Diode:1N4148W"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1495,7 +1495,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4148"
+			(property "Value" "1N4148W"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1503,7 +1503,16 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1512,16 +1521,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1557,7 +1557,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?35*"
+			(property "ki_fp_filters" "D*SOD?123*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1566,7 +1566,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N4148_0_1"
+			(symbol "1N4148W_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -1604,7 +1604,7 @@
 					)
 				)
 			)
-			(symbol "1N4148_1_1"
+			(symbol "1N4148W_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1700,6 +1700,12 @@
 		(uuid "16009387-0630-4ff0-b02f-196a5b9d88d0")
 	)
 	(junction
+		(at 53.34 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c2dd442-9867-4ef1-a938-8bbc17718865")
+	)
+	(junction
 		(at 173.99 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1710,12 +1716,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "282fd841-39ac-431b-99d2-80c24f4bc722")
-	)
-	(junction
-		(at 50.8 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2be33f27-6bc0-46e3-b1c3-115f0245eb5b")
 	)
 	(junction
 		(at 110.49 134.62)
@@ -1730,7 +1730,7 @@
 		(uuid "2ed26fa6-7685-4553-a1b8-aa64a1f68ef4")
 	)
 	(junction
-		(at 271.78 120.65)
+		(at 271.78 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31b84ecb-3386-49ea-afbf-c23fb71e9c64")
@@ -1802,7 +1802,7 @@
 		(uuid "ea983132-92c1-4492-b85d-ab8abf8881c9")
 	)
 	(junction
-		(at 271.78 48.26)
+		(at 271.78 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f24ce592-f17c-4122-9edf-dc80804a7905")
@@ -1875,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 44.45) (xy 143.51 44.45)
+			(xy 146.05 41.91) (xy 143.51 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1975,6 +1975,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 40.64) (xy 34.29 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c243f4-aa7a-43aa-b97b-35130768c4b6")
+	)
+	(wire
+		(pts
 			(xy 171.45 137.16) (xy 173.99 137.16)
 		)
 		(stroke
@@ -2052,6 +2062,16 @@
 			(type default)
 		)
 		(uuid "2317aa75-cf80-45af-8295-7032bd09ac30")
+	)
+	(wire
+		(pts
+			(xy 41.91 113.03) (xy 39.37 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2451427a-1b88-4016-8779-dce33f33f3fe")
 	)
 	(wire
 		(pts
@@ -2185,7 +2205,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 123.19) (xy 271.78 123.19)
+			(xy 269.24 115.57) (xy 271.78 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2225,16 +2245,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 38.1) (xy 53.34 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "360e2a6e-3df4-4746-8c10-1248b3cf5d94")
-	)
-	(wire
-		(pts
 			(xy 241.3 104.14) (xy 241.3 114.3)
 		)
 		(stroke
@@ -2255,7 +2265,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 49.53) (xy 50.8 52.07)
+			(xy 53.34 49.53) (xy 53.34 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2335,7 +2345,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 120.65) (xy 271.78 120.65)
+			(xy 274.32 113.03) (xy 271.78 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2475,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 43.18) (xy 271.78 43.18)
+			(xy 274.32 35.56) (xy 271.78 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2495,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 38.1) (xy 50.8 38.1)
+			(xy 34.29 38.1) (xy 53.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2515,7 +2525,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 50.8) (xy 271.78 48.26)
+			(xy 271.78 43.18) (xy 271.78 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2545,7 +2555,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 45.72) (xy 274.32 45.72)
+			(xy 269.24 38.1) (xy 274.32 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2565,7 +2575,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 50.8) (xy 271.78 50.8)
+			(xy 269.24 43.18) (xy 271.78 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2585,7 +2595,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 115.57) (xy 271.78 120.65)
+			(xy 271.78 107.95) (xy 271.78 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2655,7 +2665,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 48.26) (xy 271.78 48.26)
+			(xy 274.32 40.64) (xy 271.78 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2805,7 +2815,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 118.11) (xy 274.32 118.11)
+			(xy 269.24 110.49) (xy 274.32 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2835,7 +2845,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 115.57) (xy 271.78 115.57)
+			(xy 274.32 107.95) (xy 271.78 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2942,6 +2952,16 @@
 			(type default)
 		)
 		(uuid "ad43eb3e-aca4-4cfe-a046-98f04282b9e0")
+	)
+	(wire
+		(pts
+			(xy 146.05 41.91) (xy 146.05 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad797fde-1d92-4677-b352-c159d03ed3a5")
 	)
 	(wire
 		(pts
@@ -3165,7 +3185,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 123.19) (xy 271.78 120.65)
+			(xy 271.78 115.57) (xy 271.78 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3195,7 +3215,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 45.72) (xy 261.62 45.72)
+			(xy 259.08 38.1) (xy 261.62 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3232,6 +3252,16 @@
 			(type default)
 		)
 		(uuid "d9a5c94f-71e2-497b-a06e-1af13796236d")
+	)
+	(wire
+		(pts
+			(xy 53.34 38.1) (xy 57.15 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6ad13b-524f-4583-adf7-81443795ef8f")
 	)
 	(wire
 		(pts
@@ -3295,7 +3325,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 38.1) (xy 68.58 38.1)
+			(xy 64.77 38.1) (xy 68.58 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3315,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 38.1) (xy 50.8 41.91)
+			(xy 53.34 38.1) (xy 53.34 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3435,7 +3465,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 118.11) (xy 261.62 118.11)
+			(xy 259.08 110.49) (xy 261.62 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3475,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 43.18) (xy 271.78 48.26)
+			(xy 271.78 35.56) (xy 271.78 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3495,7 +3525,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 269.24 123.19 180)
+		(at 269.24 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3505,7 +3535,7 @@
 		)
 		(uuid "01664961-8cd3-4720-b4d1-454b33e114c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.3843 123.19 0)
+			(at 262.3843 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +3613,7 @@
 	)
 	(global_label "OCHD_CH2"
 		(shape input)
-		(at 39.37 113.03 0)
+		(at 41.91 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3593,7 +3623,7 @@
 		)
 		(uuid "19510ae6-041f-4520-8775-3e69435cf645")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.3338 113.03 0)
+			(at 54.8738 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,7 +3657,7 @@
 	)
 	(global_label "OUTPUT_CH1"
 		(shape input)
-		(at 259.08 45.72 180)
+		(at 259.08 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3637,7 +3667,7 @@
 		)
 		(uuid "1d77858d-3c5c-44c8-81ef-25b37a7c61a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.1205 45.72 0)
+			(at 244.1205 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +3921,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 50.8 52.07 270)
+		(at 53.34 52.07 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3901,7 +3931,7 @@
 		)
 		(uuid "4342ff82-baef-4d55-a7b5-fb80f263a392")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 58.9257 90)
+			(at 53.34 58.9257 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +3943,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 143.51 44.45 180)
+		(at 143.51 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3923,7 +3953,7 @@
 		)
 		(uuid "43dddd65-a71d-4aa7-a62e-24f323236e70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.6543 44.45 0)
+			(at 136.6543 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +4185,7 @@
 	)
 	(global_label "OCHD_CH1"
 		(shape input)
-		(at 34.29 40.64 0)
+		(at 36.83 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4165,7 +4195,7 @@
 		)
 		(uuid "7213da69-7737-47af-b65b-1d5e9e75aaee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.2538 40.64 0)
+			(at 49.7938 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +4449,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 269.24 50.8 180)
+		(at 269.24 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4429,7 +4459,7 @@
 		)
 		(uuid "9c6a10e1-fc36-4286-a0aa-f568967d64ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.3843 50.8 0)
+			(at 262.3843 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +4625,7 @@
 	)
 	(global_label "OUTPUT_CH2"
 		(shape input)
-		(at 259.08 118.11 180)
+		(at 259.08 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4605,7 +4635,7 @@
 		)
 		(uuid "c4c21ae1-e95f-4deb-ac29-6d9e12bf6688")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.1205 118.11 0)
+			(at 244.1205 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +4915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 131.572 118.11 90)
 			(effects
 				(font
@@ -5199,7 +5229,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 279.4 118.11 0)
+		(at 279.4 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5208,7 +5238,7 @@
 		(dnp no)
 		(uuid "1ae668bf-8152-461a-98a0-397b001f4c44")
 		(property "Reference" "J5"
-			(at 280.035 109.22 0)
+			(at 280.035 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,7 +5246,7 @@
 			)
 		)
 		(property "Value" "Output Ch2"
-			(at 280.035 111.76 0)
+			(at 280.035 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,7 +5254,7 @@
 			)
 		)
 		(property "Footprint" "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 279.4 118.11 0)
+			(at 279.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +5263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 279.4 118.11 0)
+			(at 279.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +5272,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 279.4 118.11 0)
+			(at 279.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5302,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 95.25 39.37 0)
 		(mirror x)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5367,13 +5397,13 @@
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
 					(reference "U3")
-					(unit 4)
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Diode:1N4148W")
 		(at 133.35 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5400,7 +5430,16 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 137.795 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
 			(at 133.35 130.81 0)
 			(effects
 				(font
@@ -5409,16 +5448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 133.35 130.81 0)
 			(effects
 				(font
@@ -5464,7 +5494,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 153.67 114.3 0)
 		(mirror x)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5559,7 +5589,7 @@
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
 					(reference "U4")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -5591,7 +5621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 154.94 105.918 90)
 			(effects
 				(font
@@ -5707,7 +5737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 121.92 126.238 90)
 			(effects
 				(font
@@ -5800,7 +5830,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 96.52 111.76 0)
 		(mirror x)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5895,7 +5925,7 @@
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
 					(reference "U3")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
@@ -6233,7 +6263,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50.8 45.72 0)
+		(at 53.34 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6242,7 +6272,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e931d3b-523c-4933-8cdc-199cfc284953")
 		(property "Reference" "R3"
-			(at 53.34 44.4499 0)
+			(at 55.88 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,7 +6281,7 @@
 			)
 		)
 		(property "Value" "100k_TH0.125"
-			(at 48.26 45.72 90)
+			(at 50.8 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6290,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 49.022 45.72 90)
+			(at 51.562 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 45.72 0)
+			(at 53.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6308,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 50.8 45.72 0)
+			(at 53.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +6317,7 @@
 			)
 		)
 		(property "Specifications" "100k, 5%, 1/8W, TH0.125"
-			(at 48.26 53.594 0)
+			(at 50.8 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,7 +6327,7 @@
 			)
 		)
 		(property "Manufacturer" "Xicon"
-			(at 48.26 55.118 0)
+			(at 50.8 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,7 +6337,7 @@
 			)
 		)
 		(property "Part Number" "299-100k-RC"
-			(at 48.26 56.642 0)
+			(at 50.8 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +6347,7 @@
 			)
 		)
 		(property "Display" "100k"
-			(at 53.34 46.9899 0)
+			(at 55.88 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +6356,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 54.61 45.72 90)
+			(at 57.15 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +6381,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 57.15 38.1 90)
+		(at 60.96 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6359,7 +6389,7 @@
 		(dnp no)
 		(uuid "32601403-da9f-41e8-aa21-dcfa2090fa1a")
 		(property "Reference" "R5"
-			(at 55.88 33.0199 90)
+			(at 59.69 33.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,7 +6398,7 @@
 			)
 		)
 		(property "Value" "1k_TH0.125"
-			(at 57.15 40.64 90)
+			(at 60.96 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +6407,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
-			(at 57.15 39.878 90)
+			(at 60.96 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +6416,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 38.1 0)
+			(at 60.96 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +6425,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 57.15 38.1 0)
+			(at 60.96 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +6434,7 @@
 			)
 		)
 		(property "Specifications" "1k, 5%, 1/8W, TH0.125"
-			(at 65.024 40.64 0)
+			(at 68.834 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,7 +6444,7 @@
 			)
 		)
 		(property "Manufacturer" "Xicon"
-			(at 66.548 40.64 0)
+			(at 70.358 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +6454,7 @@
 			)
 		)
 		(property "Part Number" "299-1k-RC"
-			(at 68.072 40.64 0)
+			(at 71.882 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,7 +6464,7 @@
 			)
 		)
 		(property "Display" "1k"
-			(at 55.88 35.5599 90)
+			(at 59.69 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +6473,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 57.15 34.29 90)
+			(at 60.96 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +6790,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Diode:1N4148W")
 		(at 133.35 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6787,7 +6817,16 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 137.795 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
 			(at 133.35 58.42 0)
 			(effects
 				(font
@@ -6796,16 +6835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 133.35 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 133.35 58.42 0)
 			(effects
 				(font
@@ -6874,7 +6904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 121.92 41.148 90)
 			(effects
 				(font
@@ -6967,7 +6997,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 153.67 41.91 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7062,7 +7092,7 @@
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
 					(reference "U4")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -7443,7 +7473,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 231.14 41.91 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7538,7 +7568,7 @@
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
 					(reference "U3")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -7570,7 +7600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 112.268 118.11 90)
 			(effects
 				(font
@@ -7688,7 +7718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 131.572 45.72 90)
 			(effects
 				(font
@@ -7870,7 +7900,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 120.65 142.24 0)
 		(mirror x)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7965,7 +7995,7 @@
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
 					(reference "U4")
-					(unit 3)
+					(unit 4)
 				)
 			)
 		)
@@ -8110,7 +8140,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 279.4 45.72 0)
+		(at 279.4 38.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8119,7 +8149,7 @@
 		(dnp no)
 		(uuid "8f80f14c-7fc3-4655-b20f-562397f9858d")
 		(property "Reference" "J4"
-			(at 280.035 36.83 0)
+			(at 280.035 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +8157,7 @@
 			)
 		)
 		(property "Value" "Output Ch1"
-			(at 280.035 39.37 0)
+			(at 280.035 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,7 +8165,7 @@
 			)
 		)
 		(property "Footprint" "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 279.4 45.72 0)
+			(at 279.4 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,7 +8174,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 279.4 45.72 0)
+			(at 279.4 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +8183,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 279.4 45.72 0)
+			(at 279.4 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8181,7 +8211,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 265.43 45.72 90)
+		(at 265.43 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8190,7 +8220,7 @@
 		(fields_autoplaced yes)
 		(uuid "91419b9a-110d-401a-961b-409cff4c16ef")
 		(property "Reference" "R7"
-			(at 265.43 39.37 90)
+			(at 265.43 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8198,7 +8228,7 @@
 			)
 		)
 		(property "Value" "1k_TH0.125"
-			(at 265.43 48.26 90)
+			(at 265.43 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8207,7 +8237,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
-			(at 265.43 47.498 90)
+			(at 265.43 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 45.72 0)
+			(at 265.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8225,7 +8255,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 265.43 45.72 0)
+			(at 265.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8234,7 +8264,7 @@
 			)
 		)
 		(property "Specifications" "1k, 5%, 1/8W, TH0.125"
-			(at 273.304 48.26 0)
+			(at 273.304 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8244,7 +8274,7 @@
 			)
 		)
 		(property "Manufacturer" "Xicon"
-			(at 274.828 48.26 0)
+			(at 274.828 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8254,7 +8284,7 @@
 			)
 		)
 		(property "Part Number" "299-1k-RC"
-			(at 276.352 48.26 0)
+			(at 276.352 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8264,7 +8294,7 @@
 			)
 		)
 		(property "Display" "1k"
-			(at 265.43 41.91 90)
+			(at 265.43 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8272,7 +8302,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 265.43 41.91 90)
+			(at 265.43 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8862,7 +8892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 121.92 113.538 90)
 			(effects
 				(font
@@ -9177,7 +9207,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 120.65 69.85 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9272,7 +9302,7 @@
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
 					(reference "U4")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -9303,7 +9333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 153.67 33.528 90)
 			(effects
 				(font
@@ -9419,7 +9449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 112.268 45.72 90)
 			(effects
 				(font
@@ -9511,7 +9541,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 265.43 118.11 90)
+		(at 265.43 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9520,7 +9550,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfd7457f-6fed-4366-9ffa-56ff250a58a3")
 		(property "Reference" "R8"
-			(at 265.43 111.76 90)
+			(at 265.43 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9528,7 +9558,7 @@
 			)
 		)
 		(property "Value" "1k_TH0.125"
-			(at 265.43 120.65 90)
+			(at 265.43 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9537,7 +9567,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
-			(at 265.43 119.888 90)
+			(at 265.43 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9546,7 +9576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 118.11 0)
+			(at 265.43 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9555,7 +9585,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 265.43 118.11 0)
+			(at 265.43 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9564,7 +9594,7 @@
 			)
 		)
 		(property "Specifications" "1k, 5%, 1/8W, TH0.125"
-			(at 273.304 120.65 0)
+			(at 273.304 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9574,7 +9604,7 @@
 			)
 		)
 		(property "Manufacturer" "Xicon"
-			(at 274.828 120.65 0)
+			(at 274.828 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,7 +9614,7 @@
 			)
 		)
 		(property "Part Number" "299-1k-RC"
-			(at 276.352 120.65 0)
+			(at 276.352 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,7 +9624,7 @@
 			)
 		)
 		(property "Display" "1k"
-			(at 265.43 114.3 90)
+			(at 265.43 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9602,7 +9632,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 265.43 114.3 90)
+			(at 265.43 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,7 +9743,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Diode:1N4148W")
 		(at 121.92 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9738,7 +9768,16 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 121.92 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
 			(at 121.92 134.62 0)
 			(effects
 				(font
@@ -9747,16 +9786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 121.92 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 121.92 134.62 0)
 			(effects
 				(font
@@ -9825,7 +9855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 121.92 53.848 90)
 			(effects
 				(font
@@ -9915,7 +9945,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Diode:1N4148W")
 		(at 121.92 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9940,7 +9970,16 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 121.92 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
 			(at 121.92 62.23 0)
 			(effects
 				(font
@@ -9949,16 +9988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 121.92 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 121.92 62.23 0)
 			(effects
 				(font
