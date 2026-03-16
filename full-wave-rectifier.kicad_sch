@@ -4979,7 +4979,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 163.83 137.16 0)
 		(mirror x)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5074,7 +5074,7 @@
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
 					(reference "U2")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
@@ -8386,7 +8386,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 157.48 184.15 0)
 		(mirror x)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8481,7 +8481,7 @@
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
 					(reference "U2")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -8955,7 +8955,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 157.48 162.56 0)
 		(mirror x)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9050,7 +9050,7 @@
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
 					(reference "U2")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
