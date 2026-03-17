@@ -5,311 +5,6 @@
 	(uuid "662e1ec4-0bac-4d87-a66b-840368d21815")
 	(paper "A4")
 	(lib_symbols
-		(symbol "4ms_Potentiometer:9mm_NoDet_10k_DShaft"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "POT"
-				(at -4.572 -0.127 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "9mm_NoDet_10k_DShaft"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "4ms_Potentiometer:Pot_9mm_DShaft"
-				(at 21.1582 -4.8006 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "10k Linear, 9mm pot, No Detent, D-Shaft"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "10k Linear, 9mm pot, No Detent, D-Shaft"
-				(at -2.54 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Alpha Taiwan "
-				(at -2.54 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "RV09BCF-40-25F-B10K-007 "
-				(at -2.54 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Display" "10k"
-				(at -2.794 0 90)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Production Stage" "C"
-				(at -0.1778 -12.9794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "9mm_NoDet_10k_DShaft"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "9mm_NoDet_10k_DShaft_1_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Left/1"
-					(at 0 1.27 900)
-					(effects
-						(font
-							(size 0.254 0.254)
-						)
-					)
-				)
-				(text "Right/3"
-					(at 0 -1.27 900)
-					(effects
-						(font
-							(size 0.254 0.254)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "Left"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "Right"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "Center"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "9mm_NoDet_10k_DShaft_2_1"
-				(rectangle
-					(start -2.54 0)
-					(end -1.27 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 1.27 0)
-					(end 2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -1.27 90)
-					(length 1.27)
-					(name "Tab1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -1.27 90)
-					(length 1.27)
-					(name "Tab2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
 				(offset 0.127)
@@ -1460,6 +1155,170 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3583,28 +3442,6 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 247.65 154.94 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "11cb6ad9-f38d-4c5a-8a63-50767cad2e35")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.65 161.7957 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
 		(at 57.15 177.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4549,28 +4386,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 265.43 154.94 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8b82c533-bf57-45c6-a668-95baa95f1d4b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.43 161.7957 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OUTPUT_CH1"
 		(shape input)
 		(at 41.91 185.42 180)
@@ -4584,28 +4399,6 @@
 		(uuid "8de76410-7bb5-4aac-b7d9-b8305abcc744")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 26.9505 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 237.49 154.94 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8fe4327d-f2c8-4658-a5c7-ce314991f2bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 161.7957 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,28 +4426,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 256.54 154.94 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "90ede76c-c5fd-40f5-bb76-98005ad781bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 161.7957 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4699,28 +4470,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 242.57 154.94 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "978b57ca-40fb-4a83-9f76-b6961a918260")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.57 161.7957 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4848,50 +4597,6 @@
 		(uuid "a8571591-97d4-4e83-8531-81a072529b70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.6643 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 232.41 154.94 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a8e2ce19-dcd3-4ba8-a82a-97e051607c71")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 161.7957 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 251.46 154.94 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac4f8158-5e02-4a1b-9752-3249ec6a26e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.46 161.7957 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,28 +4872,6 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 260.35 154.94 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ef7a2065-8245-4bf0-a0c0-f3536ffc8dbe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.35 161.7957 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
 		(at 111.76 175.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5294,130 +4977,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Potentiometer:9mm_NoDet_10k_DShaft")
-		(at 254 153.67 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05932b35-6a2a-4cfe-9419-cee2cf7a75af")
-		(property "Reference" "POT3"
-			(at 254 147.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "9mm_NoDet_10k_DShaft"
-			(at 254 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
-			(at 275.1582 158.4706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 254 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 251.46 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Alpha Taiwan "
-			(at 251.46 163.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RV09BCF-40-25F-B10K-007 "
-			(at 251.46 164.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "10k"
-			(at 254 149.606 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Production Stage" "C"
-			(at 253.8222 166.6494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "07b2c579-198a-400f-a5b9-81b2574547a5")
-		)
-		(pin "1"
-			(uuid "08e859b6-da2d-419e-ba3c-d78938e13a1d")
-		)
-		(pin "5"
-			(uuid "c51529fd-3611-4685-a1bd-314f242dee0c")
-		)
-		(pin "2"
-			(uuid "499f5061-03dd-49f2-af40-798cd7cdc3e5")
-		)
-		(pin "4"
-			(uuid "510380a5-9216-40e8-a00a-7fc7f26f4c09")
-		)
-		(instances
-			(project "full-wave-rectifier"
-				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
-					(reference "POT3")
-					(unit 2)
-				)
 			)
 		)
 	)
@@ -5762,130 +5321,6 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Potentiometer:9mm_NoDet_10k_DShaft")
-		(at 262.89 153.67 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1388dcc4-03f3-4708-a503-af94a06a51bf")
-		(property "Reference" "POT4"
-			(at 262.89 147.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "9mm_NoDet_10k_DShaft"
-			(at 262.89 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
-			(at 284.0482 158.4706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 262.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 260.35 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Alpha Taiwan "
-			(at 260.35 163.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RV09BCF-40-25F-B10K-007 "
-			(at 260.35 164.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "10k"
-			(at 262.89 149.606 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Production Stage" "C"
-			(at 262.7122 166.6494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "07b2c579-198a-400f-a5b9-81b2574547a5")
-		)
-		(pin "1"
-			(uuid "08e859b6-da2d-419e-ba3c-d78938e13a1d")
-		)
-		(pin "5"
-			(uuid "8e66c2b6-a457-4637-b83d-31e345f9f539")
-		)
-		(pin "2"
-			(uuid "499f5061-03dd-49f2-af40-798cd7cdc3e5")
-		)
-		(pin "4"
-			(uuid "3abb9ac3-8ed2-4d35-b06c-61c2bdf051b8")
-		)
-		(instances
-			(project "full-wave-rectifier"
-				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
-					(reference "POT4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
 		(at 276.86 115.57 0)
 		(mirror y)
@@ -5911,7 +5346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "Eurorack:Jack_3.5mm_WQP518MA"
 			(at 276.86 115.57 0)
 			(effects
 				(font
@@ -6589,7 +6024,7 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Potentiometer:9mm_NoDet_10k_DShaft")
+		(lib_id "Device:R_Potentiometer")
 		(at 186.69 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6598,7 +6033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2195d432-c778-434f-9796-70bf7e0e1f46")
-		(property "Reference" "POT1"
+		(property "Reference" "AMP_CH1"
 			(at 184.15 44.4499 0)
 			(effects
 				(font
@@ -6607,7 +6042,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "9mm_NoDet_10k_DShaft"
+		(property "Value" "10k"
 			(at 186.69 39.37 0)
 			(effects
 				(font
@@ -6616,16 +6051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
-			(at 207.8482 50.5206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Eurorack:Pot_Alpha_9mm"
 			(at 186.69 45.72 0)
 			(effects
 				(font
@@ -6634,7 +6060,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k Linear, 9mm pot, No Detent, D-Shaft"
+		(property "Datasheet" "~"
+			(at 186.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
 			(at 186.69 45.72 0)
 			(effects
 				(font
@@ -6697,19 +6132,13 @@
 		(pin "1"
 			(uuid "ec6aca51-9ce2-4d95-ad43-c031fb3f8e0f")
 		)
-		(pin "5"
-			(uuid "7fc4a48e-1bad-44d4-b4ed-49ec27235a3e")
-		)
 		(pin "2"
 			(uuid "453220ee-1da9-410b-9aab-34def0a018d4")
-		)
-		(pin "4"
-			(uuid "77ef2b0f-996b-4df1-a149-ea2c983996f5")
 		)
 		(instances
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
-					(reference "POT1")
+					(reference "AMP_CH1")
 					(unit 1)
 				)
 			)
@@ -6915,130 +6344,6 @@
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
 					(reference "J9")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Potentiometer:9mm_NoDet_10k_DShaft")
-		(at 234.95 153.67 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2550ccac-5967-4ac1-b4eb-f8c5fc682f2c")
-		(property "Reference" "POT1"
-			(at 234.95 147.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "9mm_NoDet_10k_DShaft"
-			(at 234.95 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
-			(at 256.1082 158.4706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 234.95 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 232.41 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Alpha Taiwan "
-			(at 232.41 163.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RV09BCF-40-25F-B10K-007 "
-			(at 232.41 164.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "10k"
-			(at 234.95 149.606 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Production Stage" "C"
-			(at 234.7722 166.6494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "07b2c579-198a-400f-a5b9-81b2574547a5")
-		)
-		(pin "1"
-			(uuid "08e859b6-da2d-419e-ba3c-d78938e13a1d")
-		)
-		(pin "5"
-			(uuid "7fc4a48e-1bad-44d4-b4ed-49ec27235a3e")
-		)
-		(pin "2"
-			(uuid "499f5061-03dd-49f2-af40-798cd7cdc3e5")
-		)
-		(pin "4"
-			(uuid "77ef2b0f-996b-4df1-a149-ea2c983996f5")
-		)
-		(instances
-			(project "full-wave-rectifier"
-				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
-					(reference "POT1")
-					(unit 2)
 				)
 			)
 		)
@@ -7408,7 +6713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "Eurorack:Jack_3.5mm_WQP518MA"
 			(at 26.67 101.6 0)
 			(effects
 				(font
@@ -7660,130 +6965,6 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Potentiometer:9mm_NoDet_10k_DShaft")
-		(at 245.11 153.67 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4db13702-542c-4bf6-ac4e-a0e6a844638a")
-		(property "Reference" "POT2"
-			(at 245.11 147.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "9mm_NoDet_10k_DShaft"
-			(at 245.11 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
-			(at 266.2682 158.4706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 245.11 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 242.57 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Alpha Taiwan "
-			(at 242.57 163.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RV09BCF-40-25F-B10K-007 "
-			(at 242.57 164.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "10k"
-			(at 245.11 149.606 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Production Stage" "C"
-			(at 244.9322 166.6494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "07b2c579-198a-400f-a5b9-81b2574547a5")
-		)
-		(pin "1"
-			(uuid "08e859b6-da2d-419e-ba3c-d78938e13a1d")
-		)
-		(pin "5"
-			(uuid "72eff3a4-9895-46a9-b488-34a008964d5d")
-		)
-		(pin "2"
-			(uuid "499f5061-03dd-49f2-af40-798cd7cdc3e5")
-		)
-		(pin "4"
-			(uuid "d305a488-bffb-4a12-8fed-75d83bb28e15")
-		)
-		(instances
-			(project "full-wave-rectifier"
-				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
-					(reference "POT2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 113.03 38.1 90)
 		(unit 1)
@@ -8004,7 +7185,7 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Potentiometer:9mm_NoDet_10k_DShaft")
+		(lib_id "Device:R_Potentiometer")
 		(at 187.96 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8013,7 +7194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a6c59a6-1ed9-47ae-8396-548f8d02919d")
-		(property "Reference" "POT4"
+		(property "Reference" "OFFSET_CH2"
 			(at 185.42 129.5399 0)
 			(effects
 				(font
@@ -8022,7 +7203,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "9mm_NoDet_10k_DShaft"
+		(property "Value" "10k"
 			(at 187.96 124.46 0)
 			(effects
 				(font
@@ -8031,16 +7212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
-			(at 209.1182 135.6106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Eurorack:Pot_Alpha_9mm"
 			(at 187.96 130.81 0)
 			(effects
 				(font
@@ -8049,7 +7221,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k Linear, 9mm pot, No Detent, D-Shaft"
+		(property "Datasheet" "~"
+			(at 187.96 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
 			(at 187.96 130.81 0)
 			(effects
 				(font
@@ -8112,19 +7293,13 @@
 		(pin "1"
 			(uuid "fce2a2f6-0840-42dd-9dd8-da68a7efa190")
 		)
-		(pin "5"
-			(uuid "7fc4a48e-1bad-44d4-b4ed-49ec27235a40")
-		)
 		(pin "2"
 			(uuid "1cdbe430-a1f0-4dd7-89f1-024fd9be4b26")
-		)
-		(pin "4"
-			(uuid "77ef2b0f-996b-4df1-a149-ea2c983996f7")
 		)
 		(instances
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
-					(reference "POT4")
+					(reference "OFFSET_CH2")
 					(unit 1)
 				)
 			)
@@ -8249,7 +7424,7 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Potentiometer:9mm_NoDet_10k_DShaft")
+		(lib_id "Device:R_Potentiometer")
 		(at 187.96 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8258,7 +7433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7552b5c8-e28b-4f5f-9da6-85670f2e4fae")
-		(property "Reference" "POT3"
+		(property "Reference" "AMP_CH2"
 			(at 185.42 105.4099 0)
 			(effects
 				(font
@@ -8267,7 +7442,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "9mm_NoDet_10k_DShaft"
+		(property "Value" "10k"
 			(at 187.96 100.33 0)
 			(effects
 				(font
@@ -8276,16 +7451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
-			(at 209.1182 111.4806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Eurorack:Pot_Alpha_9mm"
 			(at 187.96 106.68 0)
 			(effects
 				(font
@@ -8294,7 +7460,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k Linear, 9mm pot, No Detent, D-Shaft"
+		(property "Datasheet" "~"
+			(at 187.96 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
 			(at 187.96 106.68 0)
 			(effects
 				(font
@@ -8357,19 +7532,13 @@
 		(pin "1"
 			(uuid "ec9abd56-0320-4c6c-aa3f-e6812adfcea3")
 		)
-		(pin "5"
-			(uuid "7fc4a48e-1bad-44d4-b4ed-49ec27235a41")
-		)
 		(pin "2"
 			(uuid "fd5268ea-a0cf-494e-b914-2e50d1bb858c")
-		)
-		(pin "4"
-			(uuid "77ef2b0f-996b-4df1-a149-ea2c983996f8")
 		)
 		(instances
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
-					(reference "POT3")
+					(reference "AMP_CH2")
 					(unit 1)
 				)
 			)
@@ -8931,7 +8100,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "Eurorack:Jack_3.5mm_WQP518MA"
 			(at 22.86 36.83 0)
 			(effects
 				(font
@@ -9070,7 +8239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "Eurorack:Jack_3.5mm_WQP518MA"
 			(at 275.59 54.61 0)
 			(effects
 				(font
@@ -9527,7 +8696,7 @@
 		)
 	)
 	(symbol
-		(lib_id "4ms_Potentiometer:9mm_NoDet_10k_DShaft")
+		(lib_id "Device:R_Potentiometer")
 		(at 186.69 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9536,7 +8705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a432469a-2ad3-4f42-822a-fca0493c2628")
-		(property "Reference" "POT2"
+		(property "Reference" "OFFSET_CH1"
 			(at 184.15 67.3099 0)
 			(effects
 				(font
@@ -9545,7 +8714,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "9mm_NoDet_10k_DShaft"
+		(property "Value" "10k"
 			(at 186.69 62.23 0)
 			(effects
 				(font
@@ -9554,16 +8723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
-			(at 207.8482 73.3806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Eurorack:Pot_Alpha_9mm"
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -9572,7 +8732,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k Linear, 9mm pot, No Detent, D-Shaft"
+		(property "Datasheet" "~"
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -9635,19 +8804,13 @@
 		(pin "1"
 			(uuid "90c2877e-7a9a-4a7c-897a-5ccb10a437fd")
 		)
-		(pin "5"
-			(uuid "7fc4a48e-1bad-44d4-b4ed-49ec27235a42")
-		)
 		(pin "2"
 			(uuid "fa0ea88e-30e7-45e5-80e0-b755bd21ca92")
-		)
-		(pin "4"
-			(uuid "77ef2b0f-996b-4df1-a149-ea2c983996f9")
 		)
 		(instances
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815"
-					(reference "POT2")
+					(reference "OFFSET_CH1")
 					(unit 1)
 				)
 			)
