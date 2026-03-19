@@ -24,3 +24,7 @@ fabrication/
 # Игнорируем файлы блокировки KiCad
 *.lck
 .DS_Store
+
+# Игнорируем картинки и svg графику
+*.svg
+*.png
