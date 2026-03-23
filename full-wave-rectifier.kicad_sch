@@ -3891,7 +3891,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 223.52 25.4 270)
+		(at 270.51 90.17 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3901,7 +3901,7 @@
 		)
 		(uuid "2f4fc093-e2d6-45a4-954c-4e220d087b1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.52 32.2557 90)
+			(at 270.51 97.0257 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +3935,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 245.11 25.4 270)
+		(at 265.43 151.13 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3945,7 +3945,7 @@
 		)
 		(uuid "32a94632-0f44-4ca1-90ed-d0503cfa8103")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 32.2557 90)
+			(at 265.43 157.9857 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,7 +4133,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 232.41 25.4 270)
+		(at 252.73 151.13 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4143,7 +4143,7 @@
 		)
 		(uuid "45ff3fd2-7b61-496a-a882-4360f1e9166a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 32.2557 90)
+			(at 252.73 157.9857 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4199,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 250.19 25.4 270)
+		(at 270.51 151.13 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4209,7 +4209,7 @@
 		)
 		(uuid "4e748c86-fae9-4c39-b098-6bdbc1424e64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.19 32.2557 90)
+			(at 270.51 157.9857 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4639,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 210.82 25.4 270)
+		(at 257.81 90.17 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4649,7 +4649,7 @@
 		)
 		(uuid "92e397ea-1e3c-452b-ab8d-1ed3d158c3fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 32.2557 90)
+			(at 257.81 97.0257 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4727,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 205.74 25.4 270)
+		(at 252.73 90.17 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4737,7 +4737,7 @@
 		)
 		(uuid "9b6ec6b7-3b76-4c75-9c90-f89e79602488")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.74 32.2557 90)
+			(at 252.73 97.0257 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +4837,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 218.44 25.4 270)
+		(at 265.43 90.17 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4847,7 +4847,7 @@
 		)
 		(uuid "b027b554-90b5-4ab3-a506-196125be5e09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 32.2557 90)
+			(at 265.43 97.0257 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,7 +4969,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 237.49 25.4 270)
+		(at 257.81 151.13 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4979,7 +4979,7 @@
 		)
 		(uuid "c204a989-ca3f-420a-8ae3-5ce9ce268757")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 32.2557 90)
+			(at 257.81 157.9857 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +7288,7 @@
 	)
 	(symbol
 		(lib_id "4ms_Potentiometer:9mm_NoDet_10k_DShaft")
-		(at 247.65 24.13 0)
+		(at 267.97 149.86 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7296,7 +7296,7 @@
 		(dnp no)
 		(uuid "5222918a-836a-427e-8311-47e879d14eea")
 		(property "Reference" "OFFSET_CH2"
-			(at 247.65 18.034 0)
+			(at 267.97 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7304,7 +7304,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 247.65 17.78 0)
+			(at 267.97 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7313,7 +7313,7 @@
 			)
 		)
 		(property "Footprint" "Eurorack:Pot_Alpha_9mm"
-			(at 247.65 24.13 0)
+			(at 267.97 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7322,7 +7322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 24.13 0)
+			(at 267.97 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,7 +7331,7 @@
 			)
 		)
 		(property "Description" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 247.65 24.13 0)
+			(at 267.97 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7340,7 +7340,7 @@
 			)
 		)
 		(property "Specifications" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 245.11 32.004 0)
+			(at 265.43 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +7350,7 @@
 			)
 		)
 		(property "Manufacturer" "Alpha Taiwan "
-			(at 245.11 33.528 0)
+			(at 265.43 159.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +7360,7 @@
 			)
 		)
 		(property "Part Number" "RV09BCF-40-25F-B10K-007 "
-			(at 245.11 35.052 0)
+			(at 265.43 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7370,7 +7370,7 @@
 			)
 		)
 		(property "Display" "10k"
-			(at 247.65 20.32 0)
+			(at 267.97 146.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7378,7 +7378,7 @@
 			)
 		)
 		(property "Production Stage" "C"
-			(at 247.4722 37.1094 0)
+			(at 267.7922 162.8394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9155,7 +9155,7 @@
 	)
 	(symbol
 		(lib_id "4ms_Potentiometer:9mm_NoDet_10k_DShaft")
-		(at 220.98 24.13 0)
+		(at 267.97 88.9 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9163,7 +9163,7 @@
 		(dnp no)
 		(uuid "a0c768c5-7935-4d1b-a0e7-4d3aba9a93b2")
 		(property "Reference" "OFFSET_CH1"
-			(at 220.98 18.034 0)
+			(at 267.97 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9171,7 +9171,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 220.98 17.78 0)
+			(at 267.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9180,7 +9180,7 @@
 			)
 		)
 		(property "Footprint" "Eurorack:Pot_Alpha_9mm"
-			(at 220.98 24.13 0)
+			(at 267.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9189,7 +9189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 24.13 0)
+			(at 267.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9198,7 +9198,7 @@
 			)
 		)
 		(property "Description" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 220.98 24.13 0)
+			(at 267.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9207,7 +9207,7 @@
 			)
 		)
 		(property "Specifications" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 218.44 32.004 0)
+			(at 265.43 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9217,7 +9217,7 @@
 			)
 		)
 		(property "Manufacturer" "Alpha Taiwan "
-			(at 218.44 33.528 0)
+			(at 265.43 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,7 +9227,7 @@
 			)
 		)
 		(property "Part Number" "RV09BCF-40-25F-B10K-007 "
-			(at 218.44 35.052 0)
+			(at 265.43 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9237,7 +9237,7 @@
 			)
 		)
 		(property "Display" "10k"
-			(at 220.98 20.32 0)
+			(at 267.97 85.09 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9245,7 +9245,7 @@
 			)
 		)
 		(property "Production Stage" "C"
-			(at 220.8022 37.1094 0)
+			(at 267.7922 101.8794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9406,7 +9406,7 @@
 	)
 	(symbol
 		(lib_id "4ms_Potentiometer:9mm_NoDet_10k_DShaft")
-		(at 208.28 24.13 0)
+		(at 255.27 88.9 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9414,7 +9414,7 @@
 		(dnp no)
 		(uuid "b2a4f65c-17e3-44a5-b5c9-66afb5e73b33")
 		(property "Reference" "AMP_CH1"
-			(at 208.28 18.034 0)
+			(at 255.27 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9422,7 +9422,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 208.28 17.78 0)
+			(at 255.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9431,7 +9431,7 @@
 			)
 		)
 		(property "Footprint" "Eurorack:Pot_Alpha_9mm"
-			(at 208.28 24.13 0)
+			(at 255.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9440,7 +9440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 24.13 0)
+			(at 255.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9449,7 +9449,7 @@
 			)
 		)
 		(property "Description" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 208.28 24.13 0)
+			(at 255.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9458,7 +9458,7 @@
 			)
 		)
 		(property "Specifications" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 205.74 32.004 0)
+			(at 252.73 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +9468,7 @@
 			)
 		)
 		(property "Manufacturer" "Alpha Taiwan "
-			(at 205.74 33.528 0)
+			(at 252.73 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,7 +9478,7 @@
 			)
 		)
 		(property "Part Number" "RV09BCF-40-25F-B10K-007 "
-			(at 205.74 35.052 0)
+			(at 252.73 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9488,7 +9488,7 @@
 			)
 		)
 		(property "Display" "10k"
-			(at 208.28 20.32 0)
+			(at 255.27 85.09 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9496,7 +9496,7 @@
 			)
 		)
 		(property "Production Stage" "C"
-			(at 208.1022 37.1094 0)
+			(at 255.0922 101.8794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9530,7 +9530,7 @@
 	)
 	(symbol
 		(lib_id "4ms_Potentiometer:9mm_NoDet_10k_DShaft")
-		(at 234.95 24.13 0)
+		(at 255.27 149.86 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9538,7 +9538,7 @@
 		(dnp no)
 		(uuid "b3d384a2-28f7-4a25-862b-0fb72da55a52")
 		(property "Reference" "AMP_CH2"
-			(at 234.95 18.034 0)
+			(at 255.27 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9546,7 +9546,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 234.95 17.78 0)
+			(at 255.27 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9555,7 +9555,7 @@
 			)
 		)
 		(property "Footprint" "Eurorack:Pot_Alpha_9mm"
-			(at 234.95 24.13 0)
+			(at 255.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9564,7 +9564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 24.13 0)
+			(at 255.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9573,7 +9573,7 @@
 			)
 		)
 		(property "Description" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 234.95 24.13 0)
+			(at 255.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9582,7 +9582,7 @@
 			)
 		)
 		(property "Specifications" "10k Linear, 9mm pot, No Detent, D-Shaft"
-			(at 232.41 32.004 0)
+			(at 252.73 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9592,7 +9592,7 @@
 			)
 		)
 		(property "Manufacturer" "Alpha Taiwan "
-			(at 232.41 33.528 0)
+			(at 252.73 159.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9602,7 +9602,7 @@
 			)
 		)
 		(property "Part Number" "RV09BCF-40-25F-B10K-007 "
-			(at 232.41 35.052 0)
+			(at 252.73 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +9612,7 @@
 			)
 		)
 		(property "Display" "10k"
-			(at 234.95 20.32 0)
+			(at 255.27 146.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9620,7 +9620,7 @@
 			)
 		)
 		(property "Production Stage" "C"
-			(at 234.7722 37.1094 0)
+			(at 255.0922 162.8394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
