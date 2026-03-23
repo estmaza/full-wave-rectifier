@@ -9254,13 +9254,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "553dfeed-4aea-4b42-8b18-95329bc0fc6d")
+			(uuid "553dfeed-4aea-4b42-8b18-95329bc0fc6e")
 		)
 		(pin "1"
-			(uuid "f09369a8-508d-4308-9473-b38cb63de2aa")
+			(uuid "f09369a8-508d-4308-9473-b38cb63de2ab")
 		)
 		(pin "2"
-			(uuid "6b3d25ab-33fb-46e7-a036-5fb3435cda29")
+			(uuid "6b3d25ab-33fb-46e7-a036-5fb3435cda2a")
 		)
 		(pin "5"
 			(uuid "fb6bf931-922c-4a12-96a8-1b2fa2c1bed5")
@@ -9505,19 +9505,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "553dfeed-4aea-4b42-8b18-95329bc0fc6d")
+			(uuid "553dfeed-4aea-4b42-8b18-95329bc0fc6f")
 		)
 		(pin "1"
-			(uuid "f09369a8-508d-4308-9473-b38cb63de2aa")
+			(uuid "f09369a8-508d-4308-9473-b38cb63de2ac")
 		)
 		(pin "2"
-			(uuid "6b3d25ab-33fb-46e7-a036-5fb3435cda29")
+			(uuid "6b3d25ab-33fb-46e7-a036-5fb3435cda2b")
 		)
 		(pin "5"
-			(uuid "d6676e34-9d93-4923-bb65-96d4a3dea5bd")
+			(uuid "d6676e34-9d93-4923-bb65-96d4a3dea5be")
 		)
 		(pin "4"
-			(uuid "d02253f8-2b49-4c5e-b0a2-636658baa562")
+			(uuid "d02253f8-2b49-4c5e-b0a2-636658baa563")
 		)
 		(instances
 			(project "full-wave-rectifier"
@@ -9629,13 +9629,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "553dfeed-4aea-4b42-8b18-95329bc0fc6d")
+			(uuid "553dfeed-4aea-4b42-8b18-95329bc0fc70")
 		)
 		(pin "1"
-			(uuid "f09369a8-508d-4308-9473-b38cb63de2aa")
+			(uuid "f09369a8-508d-4308-9473-b38cb63de2ad")
 		)
 		(pin "2"
-			(uuid "6b3d25ab-33fb-46e7-a036-5fb3435cda29")
+			(uuid "6b3d25ab-33fb-46e7-a036-5fb3435cda2c")
 		)
 		(pin "5"
 			(uuid "528691b4-a096-4235-a0a3-b47b816a2880")
