@@ -3910,7 +3910,7 @@
 		(start 166.200002 46.309124)
 		(end 138.600005 46.309124)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -5027,6 +5027,18 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "fd57a580-0b4c-484d-9ee9-53b5d6179051")
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 157.48 159.385 -0)
+		(layer "B.SilkS")
+		(uuid "db4e0daa-d026-4181-b545-6734d1a96d0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(group ""
 		(uuid "d0e5d034-bff6-4966-8545-712401f6705c")

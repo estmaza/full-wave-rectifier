@@ -21064,6 +21064,18 @@
 		(layer "Edge.Cuts")
 		(uuid "f022e230-1ab8-4d4b-ac08-1a2e5097130f")
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 121.92 147.32 -0)
+		(layer "F.SilkS")
+		(uuid "20af7fff-c261-4161-9987-1658b62a64b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND"
 		(at 167.64 83.185 0)
 		(layer "B.SilkS")
@@ -21074,6 +21086,18 @@
 				(thickness 0.15)
 			)
 			(justify bottom mirror)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 182.88 145.415 0)
+		(layer "B.SilkS")
+		(uuid "f49821ed-0f86-4f10-8ca9-a27bcd41ad80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
