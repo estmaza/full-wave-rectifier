@@ -20,6 +20,11 @@ gerber/
 fabrication/
 *.gbr
 *.drl
+FWR_Production_Control/
+FWR_Production_Faceplate/
+FWR_Production_Main/
+bom/
+*.zip
 
 # Игнорируем файлы блокировки KiCad
 *.lck
