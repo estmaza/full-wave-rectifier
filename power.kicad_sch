@@ -1912,163 +1912,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LM78L05_TO92"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM78L05_TO92"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 0 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 100mA Positive"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM78L05_TO92_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM78L05_TO92_1_1"
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:Q_NMOS_GSD"
 			(pin_names
 				(offset 0)
@@ -2816,22 +2659,10 @@
 		(uuid "1898e2ec-4307-4d02-b390-0127e5e77825")
 	)
 	(junction
-		(at 101.6 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27b599d4-36d4-4312-8eb6-bf10f571e2c0")
-	)
-	(junction
 		(at 146.05 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "343d4486-052c-4af0-a509-a0e913ab9483")
-	)
-	(junction
-		(at 127 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e80bc30-ca50-4ba6-960f-0d9325317c46")
 	)
 	(junction
 		(at 101.6 101.6)
@@ -2858,12 +2689,6 @@
 		(uuid "594d159e-ce4c-44df-b770-9be1c0560814")
 	)
 	(junction
-		(at 76.2 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6810bf5f-0f4b-475c-9707-edb9da92a3d1")
-	)
-	(junction
 		(at 153.67 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2882,40 +2707,16 @@
 		(uuid "8930f80d-f725-4b14-b24f-197938f8a809")
 	)
 	(junction
-		(at 76.2 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9422e612-63d9-46bd-bda9-2990dc23f11f")
-	)
-	(junction
-		(at 88.9 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94c2e267-c4d7-46e9-a86b-eec9a3503e69")
-	)
-	(junction
 		(at 101.6 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b24931a-af33-4737-b74e-61dd7c5458f5")
 	)
 	(junction
-		(at 101.6 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c5eb066-d022-4308-86e4-696799af012f")
-	)
-	(junction
 		(at 114.3 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0e9700e-7a57-4ea2-bfa0-7f1e5daa9039")
-	)
-	(junction
-		(at 76.2 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4927f4c-772a-4683-a851-b7444df3b8ea")
 	)
 	(junction
 		(at 146.05 113.03)
@@ -2952,12 +2753,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb559558-38c1-485d-9556-621cf84d6419")
-	)
-	(junction
-		(at 101.6 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1d835c2-5c2e-40be-8932-3c87c87a7ce5")
 	)
 	(junction
 		(at 210.82 113.03)
@@ -3026,26 +2821,6 @@
 			(type default)
 		)
 		(uuid "03cbdc5a-bdd2-4b8a-a585-82f440667322")
-	)
-	(wire
-		(pts
-			(xy 101.6 152.4) (xy 101.6 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04ecaa6e-d441-405d-abfa-5f869eb74f88")
-	)
-	(wire
-		(pts
-			(xy 76.2 165.1) (xy 76.2 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08e8fd49-1833-46ec-a0f3-6ec32589996f")
 	)
 	(wire
 		(pts
@@ -3189,6 +2964,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 146.05) (xy 203.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27357ceb-0068-4eaf-a817-796a7f44b633")
+	)
+	(wire
+		(pts
 			(xy 101.6 90.17) (xy 114.3 90.17)
 		)
 		(stroke
@@ -3206,16 +2991,6 @@
 			(type default)
 		)
 		(uuid "28b64a3a-c2dd-49bd-9ea2-2b1b1ec81886")
-	)
-	(wire
-		(pts
-			(xy 76.2 165.1) (xy 81.28 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cff0a94-026a-4e04-bd94-581ebdcdab83")
 	)
 	(wire
 		(pts
@@ -3339,16 +3114,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 177.8) (xy 76.2 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43a98774-1e57-4dc4-895b-1c58cd196dbf")
-	)
-	(wire
-		(pts
 			(xy 228.6 101.6) (xy 236.22 101.6)
 		)
 		(stroke
@@ -3359,16 +3124,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 152.4) (xy 101.6 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a4f4099-339d-4d90-9b20-3752b0c5f2be")
-	)
-	(wire
-		(pts
 			(xy 88.9 90.17) (xy 101.6 90.17)
 		)
 		(stroke
@@ -3376,26 +3131,6 @@
 			(type default)
 		)
 		(uuid "4e5fae0a-90b2-4a72-afb6-f330e7b686b9")
-	)
-	(wire
-		(pts
-			(xy 88.9 182.88) (xy 88.9 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54a7ffcf-f98c-40b0-916b-b8060bde4ca9")
-	)
-	(wire
-		(pts
-			(xy 82.55 182.88) (xy 88.9 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54b5f31e-ab66-40a0-9b51-543fc8d4b7a5")
 	)
 	(wire
 		(pts
@@ -3416,26 +3151,6 @@
 			(type default)
 		)
 		(uuid "54f6752b-3116-4c84-9c55-a32968165d0a")
-	)
-	(wire
-		(pts
-			(xy 63.5 170.18) (xy 76.2 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58920684-1d70-469c-8fa4-71ca63178462")
-	)
-	(wire
-		(pts
-			(xy 120.65 152.4) (xy 127 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59becace-84fb-42af-8913-6d0ba581d4ac")
 	)
 	(wire
 		(pts
@@ -3539,16 +3254,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 170.18) (xy 101.6 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "724f909d-eee0-457a-8405-83b2e79a7490")
-	)
-	(wire
-		(pts
 			(xy 88.9 101.6) (xy 88.9 105.41)
 		)
 		(stroke
@@ -3579,16 +3284,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 165.1) (xy 101.6 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77602923-18c0-4c28-b94e-b40d34e93883")
-	)
-	(wire
-		(pts
 			(xy 146.05 90.17) (xy 153.67 90.17)
 		)
 		(stroke
@@ -3609,16 +3304,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 152.4) (xy 76.2 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d2cc3ad-e8aa-4e98-91d7-a28f6bb0255f")
-	)
-	(wire
-		(pts
 			(xy 228.6 99.06) (xy 228.6 101.6)
 		)
 		(stroke
@@ -3626,16 +3311,6 @@
 			(type default)
 		)
 		(uuid "811d6d1e-7697-4d67-94dc-979c821f46da")
-	)
-	(wire
-		(pts
-			(xy 101.6 177.8) (xy 115.57 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8311946a-5404-4486-ae1f-f31cd63ee7fb")
 	)
 	(wire
 		(pts
@@ -3656,26 +3331,6 @@
 			(type default)
 		)
 		(uuid "8895d686-55da-4716-ac2d-1cf4facd3bd0")
-	)
-	(wire
-		(pts
-			(xy 127 152.4) (xy 127 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d197dd2-1bf8-499e-a60f-80b36ba0fa9f")
-	)
-	(wire
-		(pts
-			(xy 76.2 152.4) (xy 76.2 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8daebf54-6286-469e-9a05-941d740399e9")
 	)
 	(wire
 		(pts
@@ -3869,16 +3524,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 163.83) (xy 127 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b282e0-e7ad-4e53-8ac0-816f14e620eb")
-	)
-	(wire
-		(pts
 			(xy 189.23 120.65) (xy 189.23 124.46)
 		)
 		(stroke
@@ -3919,16 +3564,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 163.83) (xy 127 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9dbf6e7-99fe-4965-b795-a9eca6f8f4ff")
-	)
-	(wire
-		(pts
 			(xy 114.3 90.17) (xy 138.43 90.17)
 		)
 		(stroke
@@ -3956,36 +3591,6 @@
 			(type default)
 		)
 		(uuid "e27427bb-0559-4041-a3f9-01b37ac82971")
-	)
-	(wire
-		(pts
-			(xy 101.6 165.1) (xy 101.6 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e478f992-d683-4272-b736-7d9fa8aa9243")
-	)
-	(wire
-		(pts
-			(xy 88.9 172.72) (xy 88.9 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e550172c-7c85-4240-98ba-89ebf8b4fb07")
-	)
-	(wire
-		(pts
-			(xy 76.2 177.8) (xy 88.9 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6682e77-9597-479b-905b-6e75f4e3dd45")
 	)
 	(wire
 		(pts
@@ -4019,16 +3624,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 177.8) (xy 101.6 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fced25f5-a93e-4047-b761-b1622099ab64")
-	)
-	(wire
-		(pts
 			(xy 88.9 101.6) (xy 114.3 101.6)
 		)
 		(stroke
@@ -4036,16 +3631,6 @@
 			(type default)
 		)
 		(uuid "fda848fd-d7c3-44a8-8451-1a3db9777fcc")
-	)
-	(wire
-		(pts
-			(xy 127 152.4) (xy 134.62 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feeff28d-806c-442f-ab15-6d34ce5e327a")
 	)
 	(global_label "GND"
 		(shape input)
@@ -4073,78 +3658,6 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 120.65 163.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "358f67f5-cd90-4845-bcd6-1439ac580a44")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.7943 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "+5V"
-		(shape output)
-		(at 134.62 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "62437bbd-cb93-4c37-85f3-abee7203b8c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.4757 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "+12V"
-		(shape input)
-		(at 71.12 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "76af52a1-1ef0-4a88-ab76-0c5650a3528e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.0548 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
 		(at 208.28 124.46 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4164,30 +3677,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 82.55 182.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7ba43ecc-8d2c-491b-b81c-7b2ee988a9d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.6943 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -4308,6 +3797,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape output)
+		(at 209.55 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5273e4d-2798-440c-824b-6a8733f776af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.4057 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -4470,88 +3983,6 @@
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815/a23aad88-37af-46a8-b17c-06594f4d94fb"
 					(reference "U2")
 					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 76.2 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1657ec19-01ec-447d-8f8c-2d08834d4834")
-		(property "Reference" "C3"
-			(at 80.01 171.8309 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 80.01 174.3709 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 77.1652 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Panasonic EEUFC1H100L"
-			(at 76.2 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1fb138e-a5fd-4944-bf1e-23a22511825a")
-		)
-		(pin "2"
-			(uuid "2d408840-4aed-4ea8-b13c-24d123a4b8ca")
-		)
-		(instances
-			(project "full-wave-rectifier"
-				(path "/662e1ec4-0bac-4d87-a66b-840368d21815/a23aad88-37af-46a8-b17c-06594f4d94fb"
-					(reference "C3")
-					(unit 1)
 				)
 			)
 		)
@@ -4746,144 +4177,6 @@
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815/a23aad88-37af-46a8-b17c-06594f4d94fb"
 					(reference "U3")
 					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 116.84 152.4 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1eb06b18-d54d-468c-aad7-df52c3f02ba6")
-		(property "Reference" "R23"
-			(at 116.84 146.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 116.84 154.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 116.84 154.178 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 116.84 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications" "100Ω, 5%, 1/8W, TH0.125"
-			(at 124.714 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Xicon"
-			(at 126.238 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "299-100-RC"
-			(at 127.762 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Display" "100Ω"
-			(at 116.84 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB ID" ""
-			(at 116.84 148.59 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c79afc26-8e0c-4623-9027-9ba3d2787fdf")
-		)
-		(pin "1"
-			(uuid "c5568c7f-6506-4df7-947a-e48ccb2aa052")
-		)
-		(instances
-			(project "full-wave-rectifier"
-				(path "/662e1ec4-0bac-4d87-a66b-840368d21815/a23aad88-37af-46a8-b17c-06594f4d94fb"
-					(reference "R23")
-					(unit 1)
 				)
 			)
 		)
@@ -5324,88 +4617,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 101.6 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b0e354d-19a3-43fa-bd5a-546f90a0551f")
-		(property "Reference" "C4"
-			(at 105.41 171.8309 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 105.41 174.3709 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 102.5652 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Panasonic EEUFC1H100L"
-			(at 101.6 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ee6dee7-10cb-45c2-9fbf-cf664c9b1211")
-		)
-		(pin "2"
-			(uuid "26fc6b21-e5f5-4ea4-8456-c40c7698b8cd")
-		)
-		(instances
-			(project "full-wave-rectifier"
-				(path "/662e1ec4-0bac-4d87-a66b-840368d21815/a23aad88-37af-46a8-b17c-06594f4d94fb"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 201.93 90.17 270)
 		(mirror x)
@@ -5481,90 +4692,6 @@
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815/a23aad88-37af-46a8-b17c-06594f4d94fb"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM78L05_TO92")
-		(at 88.9 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d05d52b-9f9f-4bfe-9610-cc546c802381")
-		(property "Reference" "U1"
-			(at 88.9 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM78L05_TO92"
-			(at 88.9 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 88.9 159.385 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf"
-			(at 88.9 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"
-			(at 88.9 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8fd559e8-7a8b-4803-bdb7-16cc8379bf8b")
-		)
-		(pin "2"
-			(uuid "30ce8afc-6d50-4650-b1f5-87698a105f25")
-		)
-		(pin "3"
-			(uuid "05eb3ee5-307c-40eb-978a-8d3ddd822be5")
-		)
-		(instances
-			(project "full-wave-rectifier"
-				(path "/662e1ec4-0bac-4d87-a66b-840368d21815/a23aad88-37af-46a8-b17c-06594f4d94fb"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6497,158 +5624,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97e063ed-9718-4ca1-bf22-a5520c53e766")
-		(property "Reference" "C15"
-			(at 130.81 157.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 127 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
-			(at 127.9652 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 127 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications" "Aluminum Electrolytic, Radial, Min 25V, 4mm Dia, 7mm Length, 1.5mm Lead Spacing"
-			(at 124.46 166.624 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 124.46 168.148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "ESS105M050AB2EA"
-			(at 124.46 169.672 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Display" "1uF"
-			(at 130.81 160.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" ""
-			(at 127 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Production Stage" "B"
-			(at 124.46 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "0c1a738c-ea99-4b5b-a0ef-9bf73cf8dbf7")
-		)
-		(pin "1"
-			(uuid "01fa89c6-8722-4e3a-a0a9-88f492c29b63")
-		)
-		(instances
-			(project "full-wave-rectifier"
-				(path "/662e1ec4-0bac-4d87-a66b-840368d21815/a23aad88-37af-46a8-b17c-06594f4d94fb"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 63.5 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -6890,88 +5865,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 63.5 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be96a92f-0d01-4d9b-8961-39d6b515f2c0")
-		(property "Reference" "C7"
-			(at 67.31 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 67.31 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 64.4652 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SR PASSIVES CM-100N-X7R"
-			(at 63.5 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d514cb98-97d6-4f9f-80fd-3695715d4b53")
-		)
-		(pin "2"
-			(uuid "68291e20-d672-4b97-b959-f7d004ad6d7c")
-		)
-		(instances
-			(project "full-wave-rectifier"
-				(path "/662e1ec4-0bac-4d87-a66b-840368d21815/a23aad88-37af-46a8-b17c-06594f4d94fb"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 198.12 77.47 90)
 		(unit 1)
@@ -7124,88 +6017,6 @@
 			(project "full-wave-rectifier"
 				(path "/662e1ec4-0bac-4d87-a66b-840368d21815/a23aad88-37af-46a8-b17c-06594f4d94fb"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 115.57 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d09a1dc3-34b6-4103-8d44-63b934fcd0b7")
-		(property "Reference" "C8"
-			(at 119.38 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 119.38 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 116.5352 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 115.57 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d08ba81c-4b4f-491c-84c4-83db2c47a35b")
-		)
-		(pin "2"
-			(uuid "372a3cc6-3491-4ae1-acc0-a699a7bcaa89")
-		)
-		(instances
-			(project "full-wave-rectifier"
-				(path "/662e1ec4-0bac-4d87-a66b-840368d21815/a23aad88-37af-46a8-b17c-06594f4d94fb"
-					(reference "C8")
 					(unit 1)
 				)
 			)
