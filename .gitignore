@@ -28,3 +28,9 @@ fabrication/
 # Игнорируем картинки и svg графику
 *.svg
 *.png
+
+# Игнорируем файлы для JLCPCB
+*.zip
+FWR_Production_Control/
+FWR_Production_Faceplate/*
+FWR_Production_Main/*
